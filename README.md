@@ -13,4 +13,19 @@ If you have used **EnMAS** in your research, please kindly cite the following pu
 ("Coming soon!")
 ## Repository Contents and Data Directory
 
-Describe here uploaded directory structure follow:  https://github.com/CMATERJU-BIOINFO/RUBic
+EnMAS-main\Code\Juppi
+1. Data folder contains human sequences and csv files indicating ten fold distribution of classes C1, C2 and C3 
+2. Remaining five sub-folders are there one for each method i.e. BLOSUM 45, BLOSUM 90, PAM 120, PAM 250 and DensePPI
+3. Inside these five folders, main python codes can be found : main_Cx.py  x = [1,2,3]
+4. Main file calls individual functions e.g. 
+	a. Create folders if not exists
+	b. Generates sub images for training and testing 
+	c. Trains the deep learning model, and saves the model
+	d. Predict test images and generate metrices
+
+EnMAS-main\Code\yeast
+1. Data folder contains input data i.e. yeast sequences for train and test.
+2. Utils folder contains various functions e.g. data read, sub-image generation etc. 
+3. Remaining four sub-folders are there one for each method i.e. BLOSUM 45, BLOSUM 90, PAM 120, PAM 250. 
+Experimental results of DensePPI was taken from the paper itself. So no folder for DensePPI
+
