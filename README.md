@@ -1,6 +1,7 @@
 # EnMAS-Encoding the Mutation rates of Amino acids for Sequence based PPI prediction
 
-![Workflow_page-0001](https://github.com/CMATERJU-BIOINFO/EnMAS-Encoding-the-Mutation-rates-of-Amino-acids-for-Sequence-based-PPI-prediction/assets/132830310/e4ec3495-a49d-47fc-b0fc-c90ba4d54764)
+[Workflow1.pdf](https://github.com/user-attachments/files/16071515/Workflow1.pdf)
+
 
 Identifying interactions between two or more proteins is crucial as it helps understand living organisms' cellular behavior and the underlying molecular mechanisms of various diseases. However, most existing computational algorithms in the field model this as binary interaction between any two proteins, instead of conserving the evolutionary regions of protein function and interactions. This is important for predicting potential interaction sites, vital for drug design, target identification, and understanding disease progression and pathogenic mechanisms. Position-aware encoding provides a way to incorporate the order of amino acids in a protein sequence into the model, thus capturing folding patterns, leading to more accurate predictions of protein structures and, consequently, their interactions. 
 This is crucial because the sequence order can affect the structure and function of proteins.
@@ -8,11 +9,7 @@ This is crucial because the sequence order can affect the structure and function
 The proposed model, EnMAS, is a novel bio-inspired substitution matrix-based sequence encoding with deep learning for identifying interacting protein pairs. It demonstrates an AUC of 97.13\% on the S. cerevisiae dataset, improving by 1.4\% over the best existing methods. Furthermore, EnMAS outperforms recent sequence-based approaches on the human benchmark dataset, addressing the complexities of protein-protein interaction test classes. EnMAS has been successfully applied for (a) identifying pathogen-host interactions (PHIs) (b) predicting near residue-level interaction even though the model was not trained on residue-level data. The enhanced performance on diverse test sets proves the efficiency of the bio-inspired sequence to image colour encoding strategy using the substitution matrices.
 
 
-## Citation
 
-If you have used **EnMAS** in your research, please kindly cite the following publications:
-
-("Coming soon!")
 ## Repository Contents and Data Directory
 
 EnMAS-main\Code\Juppi
