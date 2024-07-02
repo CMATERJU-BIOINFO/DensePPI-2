@@ -1,6 +1,5 @@
 # EnMAS-Encoding the Mutation rates of Amino acids for Sequence based PPI prediction
 
-
 ![Workflow_page-0001](https://github.com/CMATERJU-BIOINFO/EnMAS-Encoding-the-Mutation-rates-of-Amino-acids-for-Sequence-based-PPI-prediction/assets/132830310/e4ec3495-a49d-47fc-b0fc-c90ba4d54764)
 
 Identifying interactions between two or more proteins is crucial as it helps understand living organisms' cellular behavior and the underlying molecular mechanisms of various diseases. However, most existing computational algorithms in the field model this as binary interaction between any two proteins, instead of conserving the evolutionary regions of protein function and interactions. This is important for predicting potential interaction sites, vital for drug design, target identification, and understanding disease progression and pathogenic mechanisms. Position-aware encoding provides a way to incorporate the order of amino acids in a protein sequence into the model, thus capturing folding patterns, leading to more accurate predictions of protein structures and, consequently, their interactions. 
