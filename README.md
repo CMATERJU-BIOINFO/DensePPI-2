@@ -1,4 +1,4 @@
-# EnMAS-Encoding the Mutation rates of Amino acids for Sequence based PPI prediction
+# EnMAS: Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction
 
 ![Workflow](https://github.com/CMATERJU-BIOINFO/EnMAS/assets/56863228/25884b58-f86d-4bc8-aee7-3b8537a01445)
 
