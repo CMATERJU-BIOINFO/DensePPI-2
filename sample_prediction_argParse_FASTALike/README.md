@@ -1,6 +1,6 @@
 ### Running our prediction in terminal-linux
 
-Please install our environment using documentation from : [HERE](../README.md#replicating-this-work)
+Please install our environment using documentation from : [HERE](../README.md#setting-up-the-environment-for-enmas-)
 
 The input data `{input}` should be a fasta file with entries like the following :
 ```bash

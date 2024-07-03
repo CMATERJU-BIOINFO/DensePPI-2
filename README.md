@@ -33,6 +33,7 @@ Run this on a terminal :
 Then, 
 1. Please download the saved_models from here : [here](https://drive.google.com/drive/folders/18aUtTZOvNRt4VWX-76RakvwcYJOvFSPn?usp=sharing)
 2. paste the folder contents (models) in `Code/saved_models/` directory.
+
 NOTE :
 1. Model name : "complete_epoch_010_metric_0.95236.pth.tar" -> JUPPId C2(human) fold1 PAM120 model
 2. Model name : "complete_epoch_010_metric_0.91918.pth.tar" -> sCerevisiae PAM120 model
