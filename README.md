@@ -30,6 +30,13 @@ Run this on a terminal :
   git clone https://github.com/CMATERJU-BIOINFO/EnMAS.git
 ```
 
+Then, 
+1. Please download the saved_models from here : [here](https://drive.google.com/drive/folders/18aUtTZOvNRt4VWX-76RakvwcYJOvFSPn?usp=sharing)
+2. paste the folder contents (models) in `Code/saved_models/` directory.
+NOTE :
+1. Model name : "complete_epoch_010_metric_0.95236.pth.tar" -> JUPPId C2(human) fold1 PAM120 model
+2. Model name : "complete_epoch_010_metric_0.91918.pth.tar" -> sCerevisiae PAM120 model
+
 Usage  :
 ```bash
   cd EnMAS/Code/
@@ -55,17 +62,25 @@ EnMAS
 │   │   ├── DensePPI
 │   │   ├── PAM120
 │   │   └── PAM250
-|   ├── samplePlotsAndInterimResults  # Contains scripts for plot generation and prediction on random data
+│   ├── samplePlotsAndInterimResults      # Contains scripts for plot generation and prediction on random data
+│   │   ├── test_models     # Contains scripts to generate prediction results with different strides
+│   │   └── ...
+│   ├── saved_models        # Contains best saved model for sCerevisiae PAM120 encoded data. 
 │   ├── sCerevisiae         # Contains scripts to train and test on sCerevisiae
 │   │   ├── Blosum45
 │   │   ├── Blosum90
 │   │   ├── PAM120
 │   │   └── PAM250
 │   ├── Utils               # Contains all the necessary utility scripts to run the main train/test scripts
-│   └── model.py			# Contains classes and utils for the model used in this study 
+│   └── model.py            # Contains classes and utils for the model used in this study 
+├── sample_prediction_argParse_FASTALike  #Contains sample code base to test your input with PAM120-SC model.
 ├── environment.yml
 └── README.md
 ```
+
+### To run a sample prediction pipeline through arguments in terminal
+
+Please follow this tutorial to do a random test on sCerevisiae-PAM120 model on your chosen data in FASTALike format : [HERE](sample_prediction_argParse_FASTALike/README.md#running-our-prediction-in-terminal-linux)
 
 #### NOTE :
 

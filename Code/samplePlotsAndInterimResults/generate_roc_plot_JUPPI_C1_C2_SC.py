@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 encoding_strategy = "densePPI"
+# Change file location for generating plots
 key_loc  = {
     "Dense" : "________/JUPPIdDensePPIComp/outputs/blosumJUPPId/C1_10_Fold/fold1/finalPredsComplete_input_output_means.pkl",
     "Blosum45" : "________/JUPPIdBlosum45PPIComp/outputs/blosumJUPPId/C1_10_Fold/fold1/finalPredsComplete_input_output_means.pkl",

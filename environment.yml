@@ -151,6 +151,7 @@ dependencies:
       - pytz==2024.1
       - scikit-learn==1.5.0
       - scipy==1.14.0
+      - seaborn==0.13.2
       - threadpoolctl==3.5.0
       - torch-summary==1.4.5
       - tqdm==4.66.4
