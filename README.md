@@ -6,11 +6,11 @@ Understanding interactions between proteins is crucial for elucidating cellular 
 
 _**EnMAS**_ leverages bio-inspired substitution matrix-based encoding and deep learning to incorporate the order of amino acids in protein sequences for accurate interaction predictions. Demonstrating a 97.13% AUC on the S. cerevisiae dataset, it outperforms existing methods by 1.4%. Its versatility allows for successful application in identifying pathogen-host interactions and near residue-level interaction predictions. _**EnMAS**_ excels on human benchmark datasets, effectively tackling the complexities of protein-protein interaction test classes, thus providing significant advantages for drug design, target identification, and understanding disease mechanisms.
 
----------------------------------------------------------------------*---------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 To get started with _**EnMAS**_, follow the instructions in the Installation Guide and explore the Usage Examples to see how EnMAS can be applied to protein interaction prediction tasks.
 
----------------------------------------------------------------------*---------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 ### Installation Guide: (Replicating this work)
 
