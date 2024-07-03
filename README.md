@@ -13,7 +13,7 @@ To get started with _**EnMAS**_, follow the instructions in the Installation Gui
 
 ### Replicating this work
 
-#### To mimic environment setup for _**EnMAS**_ :
+#### Setting Up the Environment for _**EnMAS**_ :
 
 Install Miniconda in your linux machine using this : [link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
