@@ -12,7 +12,7 @@ To get started with _**EnMAS**_, follow the instructions in the Installation Gui
 
 ---------------------------------------------------------------------*---------------------------------------------------------------------
 
-### Replicating this work
+### Installation Guide: (Replicating this work)
 
 #### Setting Up the Environment for _**EnMAS**_ :
 
@@ -30,7 +30,7 @@ Run this on a terminal :
   git clone https://github.com/CMATERJU-BIOINFO/EnMAS.git
 ```
 
-Followed by :
+Usage  :
 ```bash
   cd EnMAS/Code/
   conda activate enmasppi
