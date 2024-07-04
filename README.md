@@ -48,12 +48,12 @@ Usage  :
 
 ### Repository contents and directory structure 
 
-To understand and replicate our entire work, the following is a overview of the scripts in different directories. The outputs and untermediates are supposed to be generated at distinct locations only, providing non-conflicting outputs for future use.
+To understand and replicate our work, the following is an overview of the scripts in different directories. The outputs and intermediates are supposed to be generated at distinct locations only, providing non-conflicting outputs for future use.
 
 ```
 EnMAS
-├── Code                    # Parent folder for all training and testing python codes and .ipynb's
-│   ├── input               # Contains input data for test i.e. sCerevisiae, human, SarsCov
+├── Code                    # Parent folder for all training and testing Python codes and .ipynb's
+│   ├── input               # Contains input data for test i.e. sCerevisiae, human, SarsCov2
 │   │   ├── JUPPId
 │   │   ├── SarsCov2Data
 │   │   └── sCerevisiaeData
@@ -79,7 +79,7 @@ EnMAS
 └── README.md
 ```
 
-### To run a sample prediction pipeline through arguments in terminal
+### To run a sample prediction pipeline through arguments in the terminal
 
 Please follow this tutorial to do a random test on sCerevisiae-PAM120 model on your chosen data in FASTALike format : [HERE](sample_prediction_argParse_FASTALike/README.md#running-our-prediction-in-terminal-linux)
 
