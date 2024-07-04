@@ -31,7 +31,7 @@ Run this on a terminal :
 ```
 
 Then, 
-1. Please download the saved_models from here : [here](https://drive.google.com/drive/folders/18aUtTZOvNRt4VWX-76RakvwcYJOvFSPn?usp=sharing)
+1. Please download the saved_models from here : [here](https://doi.org/10.6084/m9.figshare.26172565.v1)
 2. paste the folder contents (models) in `Code/saved_models/` directory.
 
 NOTE :
