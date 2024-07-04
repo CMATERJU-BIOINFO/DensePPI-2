@@ -24,6 +24,8 @@ The input data `{input}` should be a fasta file with entries like the following 
 
 To run it on terminal do :
 ```bash
+  cd ../EnMAS/sample_prediction_argParse_FASTALike/
+  conda activate enmasppi
   python3 enmasPred.py --input sample_FASTALike.txt --output ResultFiles/ --stride 64 --interaction_type "positive" --device cpu
 ```
 
