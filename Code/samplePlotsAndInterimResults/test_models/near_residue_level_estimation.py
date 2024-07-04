@@ -5,7 +5,7 @@ import seaborn as sns
 from tqdm import tqdm
 from PIL import Image
 
-# ### Normalization Neighbouring Layer with Deay :
+# ### Normalization Neighbouring Layer with Decay :
 
 slwCount = lambda height, width, window,stride: ((height - window) // stride + 1 )*((width - window) // stride + 1 )
 extract_file_info = lambda s: (s.split('_')[0].upper(), ''.join([char for char in s if char.isdigit()])[-2:])

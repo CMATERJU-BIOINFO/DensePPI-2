@@ -2,9 +2,9 @@
 
 ![Workflow](https://github.com/CMATERJU-BIOINFO/EnMAS/assets/56863228/25884b58-f86d-4bc8-aee7-3b8537a01445)
 
-Understanding interactions between proteins is crucial for elucidating cellular behaviors and the molecular mechanisms underlying various diseases. Accurate prediction of these interactions is vital for drug design, target identification, and understanding disease progression. Most existing computational algorithms model protein interactions as binary relationships, often overlooking the evolutionary regions of protein function and interactions. _**EnMAS**_ (Enhanced Model for Amino acid Substitution) addresses this gap by providing a novel approach to protein interaction prediction.
+Understanding interactions between proteins is crucial for elucidating cellular behaviors and the molecular mechanisms underlying various diseases. Accurate prediction of these interactions is vital for drug design, target identification, and understanding of disease progression. Most existing computational algorithms model protein interactions as binary relationships, often overlooking the evolutionary regions of protein function and interactions. _**EnMAS**_ (Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction) addresses this gap by providing a novel approach to protein interaction prediction.
 
-_**EnMAS**_ leverages bio-inspired substitution matrix-based encoding and deep learning to incorporate the order of amino acids in protein sequences for accurate interaction predictions. Demonstrating a 97.13% AUC on the S. cerevisiae dataset, it outperforms existing methods by 1.4%. Its versatility allows for successful application in identifying pathogen-host interactions and near residue-level interaction predictions. _**EnMAS**_ excels on human benchmark datasets, effectively tackling the complexities of protein-protein interaction test classes, thus providing significant advantages for drug design, target identification, and understanding disease mechanisms.
+_**EnMAS**_ leverages bio-inspired substitution matrix-based encoding and deep learning to incorporate the order of amino acids in protein sequences for accurate interaction predictions. Demonstrating a 97.13% AUC on the S.cerevisiae dataset, it outperforms existing methods by 1.4%. Its versatility allows for successful application in identifying pathogen-host interactions and near residue-level interaction predictions. _**EnMAS**_ excels on human benchmark datasets, effectively tackling the complexities of protein-protein interaction test classes, thus providing significant advantages for drug design, target identification, and understanding disease mechanisms.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ Run this on a terminal :
 ```
 
 Then, 
-1. Please download the saved_models from here : [here](https://drive.google.com/drive/folders/18aUtTZOvNRt4VWX-76RakvwcYJOvFSPn?usp=sharing)
+1. Please download the saved_models from here : [here](https://doi.org/10.6084/m9.figshare.26172565.v2)
 2. paste the folder contents (models) in `Code/saved_models/` directory.
 
 NOTE :
@@ -48,12 +48,12 @@ Usage  :
 
 ### Repository contents and directory structure 
 
-To understand and replicate our entire work, the following is a overview of the scripts in different directories. The outputs and untermediates are supposed to be generated at distinct locations only, providing non-conflicting outputs for future use.
+To understand and replicate our work, the following is an overview of the scripts in different directories. The outputs and intermediates are supposed to be generated at distinct locations only, providing non-conflicting outputs for future use.
 
 ```
 EnMAS
-├── Code                    # Parent folder for all training and testing python codes and .ipynb's
-│   ├── input               # Contains input data for test i.e. sCerevisiae, human, SarsCov
+├── Code                    # Parent folder for all training and testing Python codes and .ipynb's
+│   ├── input               # Contains input data for test i.e. sCerevisiae, human, SarsCov2
 │   │   ├── JUPPId
 │   │   ├── SarsCov2Data
 │   │   └── sCerevisiaeData
@@ -79,7 +79,7 @@ EnMAS
 └── README.md
 ```
 
-### To run a sample prediction pipeline through arguments in terminal
+### To run a sample prediction pipeline through arguments in the terminal
 
 Please follow this tutorial to do a random test on sCerevisiae-PAM120 model on your chosen data in FASTALike format : [HERE](sample_prediction_argParse_FASTALike/README.md#running-our-prediction-in-terminal-linux)
 
