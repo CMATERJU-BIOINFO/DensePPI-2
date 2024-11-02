@@ -193,7 +193,7 @@ def generate_metrices_from_dict_single_type(orig_labels, predictions, raw_pred, 
 			temp_raw_pred = [raw_pred[i - 1] for i in p_data[img]]
 			tempImageCounter.image_dict[tempImageCounter.image_counter] = np.array(temp_raw_pred).tolist()
 			tempImageCounter.image_counter += 1
-			fin_op.append(1 if np.mean(outputs)>=0.5 else 0)
+			fin_op.append(1 if np.mean(outputs)>=0.55 else 0)
 			fin_ip.append(1)
 			fin_op_thresh.append(np.mean(outputs))
 
