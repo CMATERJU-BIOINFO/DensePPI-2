@@ -3,7 +3,7 @@ from Utils import *
 
 def main():
     project_base_dir = "../Code/"
-    parser = argparse.ArgumentParser(description="EnMAS Prediction for FASTALike file using PAM120-SC Model")
+    parser = argparse.ArgumentParser(description="DensePPI-2 Prediction for FASTALike file using PAM120-SC Model")
 
     parser.add_argument('--input',
                         type=str,
