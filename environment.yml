@@ -1,4 +1,4 @@
-name: enmasppi
+name: denseppi_2
 channels:
   - pytorch
   - nvidia

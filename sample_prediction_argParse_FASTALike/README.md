@@ -1,6 +1,6 @@
 ### Running our prediction in terminal-linux
 
-Please install our environment using documentation from : [HERE](../README.md#setting-up-the-environment-for-enmas-)
+Please install our environment using documentation from : [HERE](../README.md#setting-up-the-environment-for-denseppi-2)
 
 The input data `{input}` should be a fasta file with entries like the following :
 ```bash
@@ -24,9 +24,9 @@ The input data `{input}` should be a fasta file with entries like the following 
 
 To run it on terminal do :
 ```bash
-  cd ../EnMAS/sample_prediction_argParse_FASTALike/
-  conda activate enmasppi
-  python3 enmasPred.py --input sample_FASTALike.txt --output ResultFiles/ --stride 64 --interaction_type "positive" --device cpu
+  cd ../DensePPI-2/sample_prediction_argParse_FASTALike/
+  conda activate denseppi_2
+  python3 denseppi2Pred.py --input sample_FASTALike.txt --output ResultFiles/ --stride 64 --interaction_type "positive" --device cpu
 ```
 
 The result will be generated in the subfolder `{output}` with name :

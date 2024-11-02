@@ -1,20 +1,20 @@
-# EnMAS: Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction
+# DensePPI-2: A bio-inspired update for sequence based PPI prediction leveraging mutation rates
 
 ![Workflow](https://github.com/CMATERJU-BIOINFO/EnMAS/assets/56863228/25884b58-f86d-4bc8-aee7-3b8537a01445)
 
-Understanding interactions between proteins is crucial for elucidating cellular behaviors and the molecular mechanisms underlying various diseases. Accurate prediction of these interactions is vital for drug design, target identification, and understanding of disease progression. Most existing computational algorithms model protein interactions as binary relationships, often overlooking the evolutionary regions of protein function and interactions. _**EnMAS**_ (Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction) addresses this gap by providing a novel approach to protein interaction prediction.
+Understanding interactions between proteins is crucial for elucidating cellular behaviors and the molecular mechanisms underlying various diseases. Accurate prediction of these interactions is vital for drug design, target identification, and understanding of disease progression. Most existing computational algorithms model protein interactions as binary relationships, often overlooking the evolutionary regions of protein function and interactions. _**DensePPI-2**_ (Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction) addresses this gap by providing a novel approach to protein interaction prediction.
 
-_**EnMAS**_ leverages bio-inspired substitution matrix-based encoding and deep learning to incorporate the order of amino acids in protein sequences for accurate interaction predictions. Demonstrating a 97.13% AUC on the S.cerevisiae dataset, it outperforms existing methods by 1.4%. Its versatility allows for successful application in identifying pathogen-host interactions and near residue-level interaction predictions. _**EnMAS**_ excels on human benchmark datasets, effectively tackling the complexities of protein-protein interaction test classes, thus providing significant advantages for drug design, target identification, and understanding disease mechanisms.
+_**DensePPI-2**_ leverages bio-inspired substitution matrix-based encoding and deep learning to incorporate the order of amino acids in protein sequences for accurate interaction predictions. Demonstrating a 97.13% AUC on the S.cerevisiae dataset, it outperforms existing methods by 1.4%. Its versatility allows for successful application in identifying pathogen-host interactions and near residue-level interaction predictions. _**DensePPI-2**_ excels on human benchmark datasets, effectively tackling the complexities of protein-protein interaction test classes, thus providing significant advantages for drug design, target identification, and understanding disease mechanisms.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-To get started with _**EnMAS**_, follow the instructions in the Installation Guide and explore the Usage Examples to see how EnMAS can be applied to protein interaction prediction tasks.
+To get started with _**DensePPI-2**_, follow the instructions in the Installation Guide and explore the Usage Examples to see how DensePPI-2 can be applied to protein interaction prediction tasks.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
 ### Installation Guide: (Replicating this work)
 
-#### Setting Up the Environment for _**EnMAS**_ :
+#### Setting Up the Environment for _**DensePPI-2**_ :
 
 Install Miniconda in your linux machine using this : [link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
@@ -27,7 +27,7 @@ Then, run the following to install our environment.
 #### To get access to this repository and run our code :
 Run this on a terminal :
 ```bash
-  git clone https://github.com/CMATERJU-BIOINFO/EnMAS.git
+  git clone https://github.com/CMATERJU-BIOINFO/DensePPI-2.git
 ```
 
 Then, 
@@ -40,8 +40,8 @@ NOTE :
 
 Usage  :
 ```bash
-  cd EnMAS/Code/
-  conda activate enmasppi
+  cd DensePPI-2/Code/
+  conda activate denseppi_2
   cd JUPPId/Blosum45/                             #example, change directory according to need
   python3 main_train_test_blosum45JUPPId_C1.py    #example, change filename according to need
 ```
@@ -51,7 +51,7 @@ Usage  :
 To understand and replicate our work, the following is an overview of the scripts in different directories. The outputs and intermediates are supposed to be generated at distinct locations only, providing non-conflicting outputs for future use.
 
 ```
-EnMAS
+DensePPI-2
 ├── Code                    # Parent folder for all training and testing Python codes and .ipynb's
 │   ├── input               # Contains input data for test i.e. sCerevisiae, human, SarsCov2
 │   │   ├── JUPPId
