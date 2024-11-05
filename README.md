@@ -1,7 +1,6 @@
 # DensePPI-2: A bio-inspired update for sequence based PPI prediction leveraging mutation rates
 
-![Uploading Workflow.png…]()
-
+![Workflow](https://github.com/user-attachments/assets/26e1c882-82b2-44c4-9d26-f356970d9ef1)
 
 Understanding interactions between proteins is crucial for elucidating cellular behaviors and the molecular mechanisms underlying various diseases. Accurate prediction of these interactions is vital for drug design, target identification, and understanding of disease progression. Most existing computational algorithms model protein interactions as binary relationships, often overlooking the evolutionary regions of protein function and interactions. _**DensePPI-2**_ (Encoding the Mutation Rates of Amino Acids for Sequence-based PPI Prediction) addresses this gap by providing a novel approach to protein interaction prediction.
 
